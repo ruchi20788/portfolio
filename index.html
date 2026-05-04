@@ -6,24 +6,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-  body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: #f4f6f9;
-    color: #333;
-  }
+  html {
+  scroll-behavior: smooth;
+}
+ body {
+  background: #0f172a;
+  color: #e2e8f0;
+}
 
   header {
-    background: linear-gradient(135deg, #4f46e5, #7c3aed);
-    color: white;
-    text-align: center;
-    padding: 50px 20px;
-  }
+  padding: 80px 20px;
+}
 
-  header h1 {
-    margin: 0;
-    font-size: 36px;
-  }
+header h1 {
+  font-size: 42px;
+}
 
   header p {
     margin-top: 10px;
@@ -38,22 +35,18 @@
   }
 
   .card {
-    background: white;
-    padding: 25px;
-    margin-bottom: 25px;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-    transition: 0.3s;
-  }
+  background: #1e293b;
+  color: white;
+}
+
 
   .card:hover {
     transform: translateY(-5px);
   }
 
-  h2 {
-    color: #4f46e5;
-    margin-bottom: 15px;
-  }
+ h2 {
+  color: #38bdf8;
+}
 
   ul {
     padding-left: 20px;
@@ -85,8 +78,17 @@
 <body>
 
 <header>
-  <h1>Ruchita Pethe</h1>
-  <p>Web Developer | Java Full Stack Enthusiast</p>
+  <h1>Hi, I'm Ruchita Pethe</h1>
+  <p>Java Full Stack Developer | Building scalable web applications</p>
+
+  <div style="margin-top:20px;">
+    <a href="#projects">
+      <button>View Projects</button>
+    </a>
+    <a href="#">
+      <button>Download Resume</button>
+    </a>
+  </div>
 </header>
 
 <section>
@@ -100,11 +102,23 @@
   </div>
 
   <div class="card">
-    <h2>Projects</h2>
+  <h2>Skills</h2>
+  <ul>
+    <li>Java</li>
+    <li>HTML, CSS, JavaScript,JDBC </li>
+    <li>Java</li>
+    <li>JDBC</li>
+    <li>MySQL</li>
+    <li>Git & GitHub</li>
+  </ul>
+</div>
+
+<div class="card" id="projects">
     <ul>
       <li>
-        <strong>Web Traffic Forecasting</strong> – Data analysis based project  
+        <strong>Web Traffic Forecasting</strong>  
         <br>
+        Predicts website traffic trends using data analysis techniques.<br>
         <a href="https://github.com/ruchi20788/web-traffic-forecasting" target="_blank">View Project</a>
       </li>
 
